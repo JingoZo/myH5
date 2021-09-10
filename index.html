@@ -21,11 +21,11 @@
     //得到时间并写入div
     function getDate() {
         //获取当前时间
-        var date = new Date();
+        const date = new Date();
         //格式化为本地时间格式
-        var date1 = date.toLocaleString();
+        const date1 = date.toLocaleString();
         //获取div
-        var div1 = document.getElementById("times");
+        const div1 = document.getElementById("times");
         //将时间写入div
         div1.innerHTML = date1;
     }
