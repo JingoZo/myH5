@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8"/>
     <title>JingHtml</title>
 
     <style>
         #times {
-            font-size: 100px;
             width: 200px;
             height: 20px;
+            border: 3px solid gray; /*如果不加实线无法显示边框*/
         }
     </style>
-
 </head>
+
 <body>
 <div id="times">
+
 </div>
 
 <script>
@@ -33,6 +34,5 @@
     //使用定时器每秒向div写入当前时间
     setInterval("getDate()", 1000);
 </script>
-
 </body>
 </html>
